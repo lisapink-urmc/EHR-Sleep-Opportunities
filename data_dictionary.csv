@@ -1,0 +1,101 @@
+﻿Table / Variable,Description
+,
+Admission Details:,
+PAT_ENC_CSN_ID,Patient encounter ID
+PAT_ID,Patient ID
+HOSP_ADMSN_TIME,Time addmitted to hospital
+HOSP_DISCH_TIME,Time discharged from hospital
+ADMISSION_DX_CODE,Admission diagnosis code
+ADMISSION_DX_NAME,Admission diagnosis name
+DISCHARGE,Location patient was discharged to
+NIGHTS_ON_51600,Number of nights spent on unit 5-1600
+GENDER,Gender
+PREFERRED_LANGUAGE,Preferred language
+PATIENT_AGE_YEARS,Age in years
+PATIENT_RACE,Patient race
+PATIENT_ETHNICITY,Patient ethnicity
+POSTAL_CODE,Postal code
+BMI,BMI
+,
+Location History:,
+PAT_ENC_CSN_ID,Patient encounter ID
+START_TIME,Time patient entered the location
+END_TIME,Time patient left the location
+RECORD_NAME,Location name / number
+LOCATION_TYPE,"Location type (Bed, Department, etc.)"
+ROOM_NAME,Room name
+BED_LABEL,Room / bed number
+,
+Flowsheets:,
+PAT_ENC_CSN_ID,Patient Encounter ID
+TEMPLATE_NAME,The name given to the template record
+GROUP_NAME,The name given to the flowsheet group/row
+ROW_NAME,The display name given to the flowsheet group/row.
+ROW_TYPE,Data or custom formula
+MEAS_VALUE,Measurements / notes from the interaction
+TIME,Time of interaction
+TAKEN_USER_ID,ID of user who performed action on patient
+PROV_TYPE,Type of provide who performed action on patient
+,
+Medication Administration:,
+PAT_ENC_CSN_ID,Patient ID
+ORDER_MED_ID,Medication order ID
+RX_ORDER_NAME,Rx Name
+THERAPEUTIC_CLASS,Therapeutic class
+PHARMACEUTICAL_CLASS,Pharmaceutical class
+PHARMACEUTICAL_SUBCLASS,Pharmaceutical subclass
+FREQ_NAME,Order Frequency
+PRN_YN,
+ORDER_DOSE,Order Dose
+DOSE_UNIT,Unit of dose
+TAKEN_TIME,Time of medication administration
+SCHEDULED_TIME,Scheduled time for medication to be administered
+TIMELY_ADMINISTRATION,Medication given on time / late / early
+MAR_ACTION,"Whether the medication was given, refused, cancelled"
+USER_ID,Provider ID
+PROV_TYPE,Provider Type
+DEPARTMENT_NAME,Department name
+ADMIN_ROUTE,Route administered
+,
+Labs and Imaging:,
+PAT_ENC_CSN_ID,Patient encounter ID
+ORDER_PROC_ID,Order ID
+DESCRIPTION,Description of lab 
+SPECIMEN_TYPE,Further description of lab
+TIME,Time of collection
+COLLECTOR_USER_ID,ID of user who collected lab from patient
+PROV_TYPE,Type of provider who collected lab from patienr
+,
+Patient Night Population:,
+PAT_ENC_CSN_ID,Patient encounter ID
+NIGHT_START,Night start time
+NIGHT_END,Night end time
+,
+On Unit Interruptions:,
+TIME,Time of room / bed change
+LOCATION_1,Original room / bed
+LOCATION_2,New room / bed
+,
+Off Unit Interruptions:,
+PAT_ENC_CSN_ID,Patient encounter ID
+START_TIME,Time patient leaves target unit
+END_TIME,Time patient returns to target unit
+RECORD_NAME,Location name / number
+LOCATION_TYPE,"Location type (Bed, Department, etc.)"
+ROOM_NAME,Room name
+BED_LABEL,Room / bed number
+TIME_OFF_UNIT,Amount of time elapsed between START_TIME and END_TIME
+,
+Provider-Patient Interactions:,
+PAT_ENC_CSN_ID,Patient encounter ID
+START_TIME,Start time of encounter
+END_TIME,End time of encounter
+PPI_TYPE,Type of provider-patient interaction 
+,
+LUSO / Episode Count:,
+PAT_ENC_CSN_ID,Patient encounter ID
+NIGHT_START,Night start time
+NIGHT_END,Night end time
+GROUPED_TIMES,Times of provider-patient interactions in their groupings
+NUM_GROUPS,Number of groups (interrruptive episodes)
+LUSO,Longest Uninterrupted Sleep Opportuity of the night
