@@ -1,4 +1,4 @@
-# Using the Electronic Health Record to Better Understand the Impact of Overnight Provider-Patient Interactions on Overnight Sleep Opportunities
+# Using the Electronic Health Record to Better Understand the Impact of Overnight Patient-Staff Interactions on Overnight Sleep Opportunities
 This repository contains code used in the manuscript with the above title. The code is in the form of Jupyter Notebooks. The goal is to use provider-patient interaction data from the EHR to generate relevant sleep variables and quantify sleep opportunities.
 
 
