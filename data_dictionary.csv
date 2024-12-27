@@ -57,26 +57,26 @@ PROV_TYPE,Provider Type
 DEPARTMENT_NAME,Department name
 ADMIN_ROUTE,Route administered
 ,
-Labs and Imaging:,
+Orders:,
 PAT_ENC_CSN_ID,Patient encounter ID
 ORDER_PROC_ID,Order ID
-DESCRIPTION,Description of lab 
-SPECIMEN_TYPE,Further description of lab
+DESCRIPTION,Description of order
+SPECIMEN_TYPE,Further description of order
 TIME,Time of collection
-COLLECTOR_USER_ID,ID of user who collected lab from patient
-PROV_TYPE,Type of provider who collected lab from patienr
+COLLECTOR_USER_ID,ID of user who collected order from patient
+PROV_TYPE,Type of provider who collected order from patient
 ,
 Patient Night Population:,
 PAT_ENC_CSN_ID,Patient encounter ID
 NIGHT_START,Night start time
 NIGHT_END,Night end time
 ,
-On Unit Interruptions:,
+Bed Changes,
 TIME,Time of room / bed change
 LOCATION_1,Original room / bed
 LOCATION_2,New room / bed
 ,
-Off Unit Interruptions:,
+Off Unit Transfers:,
 PAT_ENC_CSN_ID,Patient encounter ID
 START_TIME,Time patient leaves target unit
 END_TIME,Time patient returns to target unit
@@ -86,16 +86,16 @@ ROOM_NAME,Room name
 BED_LABEL,Room / bed number
 TIME_OFF_UNIT,Amount of time elapsed between START_TIME and END_TIME
 ,
-Provider-Patient Interactions:,
+Provider-Staff Interactions:,
 PAT_ENC_CSN_ID,Patient encounter ID
 START_TIME,Start time of encounter
 END_TIME,End time of encounter
-PPI_TYPE,Type of provider-patient interaction 
+PSI_TYPE,Type of patient-staff interaction 
 ,
 LUSO / Episode Count:,
 PAT_ENC_CSN_ID,Patient encounter ID
 NIGHT_START,Night start time
 NIGHT_END,Night end time
-GROUPED_TIMES,Times of provider-patient interactions in their groupings
+GROUPED_TIMES,Times of patient-staff interactions in their groupings
 NUM_GROUPS,Number of groups (interrruptive episodes)
 LUSO,Longest Uninterrupted Sleep Opportuity of the night
